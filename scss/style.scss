@@ -589,7 +589,7 @@ header {
       padding: 50px;
       margin: 0 2px 2px 0;
 
-      width: 288px;
+      max-width: 24%;
 
       background-color: $color-white;
 
@@ -615,4 +615,10 @@ header {
       }
     }
   }
+}
+
+.main-agency {
+  display: flex;
+  justify-content: center;
+
 }

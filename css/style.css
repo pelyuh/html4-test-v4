@@ -368,7 +368,7 @@ header {
     .main-services-wrapper .main-services-items .main-services-item {
       padding: 50px;
       margin: 0 2px 2px 0;
-      width: 288px;
+      max-width: 24%;
       background-color: #ffffff; }
       .main-services-wrapper .main-services-items .main-services-item h3 {
         padding-bottom: 28px;
@@ -384,3 +384,7 @@ header {
         padding-bottom: 36px;
         font-size: 30px;
         color: #9a9dab; }
+
+.main-agency {
+  display: flex;
+  justify-content: center; }
