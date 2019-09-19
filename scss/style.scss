@@ -186,83 +186,85 @@ header {
 }
 
 .main-choose {
-  padding: 100px 0 120px 0;
-  display: flex;
-  justify-content: space-between;
-
   background-color: #fafafa;
 
-  .main-choose-us {
-    max-width: 460px;
+  .main-choose-wrapper {
+    padding: 100px 0 120px 0;
+    display: flex;
+    justify-content: space-between;
 
-    h2 {
-      padding-bottom: 25px;
+    .main-choose-us {
+      max-width: 460px;
 
-      color: #515769;
-      font-size: 21px;
-      font-weight: bold;
-    }
+      h2 {
+        padding-bottom: 25px;
 
-    p {
-      padding-bottom: 35px;
-      font-size: 11px;
-    }
-
-    a {
-      padding: 18px 40px;
-      font-size: 9px;
-      font-weight: bold;
-      color: $color-white;
-      text-decoration: none;
-      text-transform: uppercase;
-
-      background-color: #515769;
-    }
-
-    a:hover {
-      background-color: #17bed2;
-    }
-  }
-
-  .main-choose-benefits {
-    width: 460px;
-
-    .main-choose-benefit-item-active {
-      margin-bottom: 10px;
-      padding: 36px 30px;
-
-      background-color: #17bed2;
-
-      a {
-        color: $color-white;
-        font-size: 14px;
+        color: #515769;
+        font-size: 21px;
         font-weight: bold;
-
-        text-decoration: none;
       }
 
       p {
-        padding-top: 35px;
-
-        color: $color-white;
+        padding-bottom: 35px;
         font-size: 11px;
       }
-    }
-
-    .main-choose-benefit-item {
-      padding: 35px 30px;
-      background-color: $color-white;
 
       a {
-        font-size: 14px;
+        padding: 18px 40px;
+        font-size: 9px;
         font-weight: bold;
-
+        color: $color-white;
         text-decoration: none;
-        color: #515769;
+        text-transform: uppercase;
+
+        background-color: #515769;
       }
 
       a:hover {
-        color: #999caa;
+        background-color: #17bed2;
+      }
+    }
+
+    .main-choose-benefits {
+      width: 460px;
+
+      .main-choose-benefit-item-active {
+        margin-bottom: 10px;
+        padding: 36px 30px;
+
+        background-color: #17bed2;
+
+        a {
+          color: $color-white;
+          font-size: 14px;
+          font-weight: bold;
+
+          text-decoration: none;
+        }
+
+        p {
+          padding-top: 35px;
+
+          color: $color-white;
+          font-size: 11px;
+        }
+      }
+
+      .main-choose-benefit-item {
+        padding: 35px 30px;
+        background-color: $color-white;
+
+        a {
+          font-size: 14px;
+          font-weight: bold;
+
+          text-decoration: none;
+          color: #515769;
+        }
+
+        a:hover {
+          color: #999caa;
+        }
       }
     }
   }
@@ -357,95 +359,96 @@ header {
 }
 
 .main-plans {
-  padding: 100px 0 110px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   background-color: #fafafa;
 
+  .main-plans-wrapper {
+    padding: 100px 0 110px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  .main-plans-item {
-    width: 380px;
+    .main-plans-item {
+      width: 380px;
 
-    margin-right: 2px;
-    padding: 70px 45px;
+      margin-right: 2px;
+      padding: 70px 45px;
 
-    background-color: $color-white;
+      background-color: $color-white;
 
-    h2 {
-      padding-bottom: 28px;
+      h2 {
+        padding-bottom: 28px;
 
-      font-size: 14px;
-      font-weight: bold;
-      color: #515769;
+        font-size: 14px;
+        font-weight: bold;
+        color: #515769;
 
-      span {
-        font-size: 12px;
-        font-weight: normal;
-        color: #abacaf;
-      }
-    }
-
-    p {
-      padding-bottom: 36px;
-      font-size: 11px;
-    }
-
-    ul {
-      padding-bottom: 56px;
-      list-style: none;
-
-      span:before {
-        position: absolute;
-        content: '';
-        top: 8px;
-        left: 0;
-        width: 9px;
-        height: 2px;
-        background-color: #17bed2;
+        span {
+          font-size: 12px;
+          font-weight: normal;
+          color: #abacaf;
+        }
       }
 
-      li {
+      p {
+        padding-bottom: 36px;
+        font-size: 11px;
+      }
 
-        padding-left: 14px;
-        position: relative;
+      ul {
+        padding-bottom: 56px;
+        list-style: none;
 
+        span:before {
+          position: absolute;
+          content: '';
+          top: 8px;
+          left: 0;
+          width: 9px;
+          height: 2px;
+          background-color: #17bed2;
+        }
+
+        li {
+
+          padding-left: 14px;
+          position: relative;
+
+          font-size: 9px;
+          color: #81848f;
+        }
+      }
+
+      a {
+        padding: 18px 40px;
+        background-color: #f3f4f5;
+
+        text-decoration: none;
+        text-transform: uppercase;
         font-size: 9px;
-        color: #81848f;
+        font-weight: bold;
+        color: #515769;
+      }
+
+      a:hover {
+        background-color: #17bed2;
+        color: $color-white;
+      }
+
+      .main-plans-item-icon i {
+        padding-bottom: 35px;
+
+        font-size: 30px;
+        color: #999caa;
       }
     }
 
-    a {
-      padding: 18px 40px;
-      background-color: #f3f4f5;
-
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size: 9px;
-      font-weight: bold;
-      color: #515769;
+    .main-plans-item:nth-of-type(3n) {
+      margin-right: 0;
     }
 
-    a:hover {
-      background-color: #17bed2;
-      color: $color-white;
+    .main-plans-item:nth-of-type(2n) {
+      padding: 110px 45px;
     }
-
-    .main-plans-item-icon i {
-      padding-bottom: 35px;
-
-      font-size: 30px;
-      color: #999caa;
-    }
-  }
-
-  .main-plans-item:nth-of-type(3n) {
-    margin-right: 0;
-  }
-
-  .main-plans-item:nth-of-type(2n) {
-    padding: 110px 45px;
   }
 }
 
@@ -470,6 +473,7 @@ header {
       width: 50%;
       font-size: 11px;
     }
+
     .main-work-image {
       display: flex;
       justify-content: space-between;
@@ -546,5 +550,69 @@ header {
   img {
     width: 195px;
     height: auto;
+  }
+}
+
+.main-services {
+  background-color: #fafafa;
+}
+
+.main-services-wrapper {
+  padding: 110px 0 100px 0;
+
+  h2 {
+    padding-bottom: 30px;
+    font-size: 21px;
+    font-weight: bold;
+    color: #515769;
+  }
+
+  p {
+    padding-bottom: 60px;
+    width: 50%;
+    font-size: 11px;
+
+  }
+
+  .main-services-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .main-services-item:hover {
+      .main-services-item-icon i {
+        display: none;
+      }
+    }
+
+    .main-services-item {
+      padding: 50px;
+      margin: 0 2px 2px 0;
+
+      width: 288px;
+
+      background-color: $color-white;
+
+      h3 {
+        padding-bottom: 28px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #515769;
+      }
+
+      p {
+        padding-bottom: 60px;
+
+        font-size: 11px;
+        width: 100%;
+        padding: 0;
+      }
+
+      .main-services-item-icon i {
+        padding-bottom: 36px;
+        font-size: 30px;
+        color: #9a9dab;
+      }
+    }
   }
 }
