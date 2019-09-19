@@ -480,6 +480,7 @@ header {
       }
 
       .main-work-image-1 {
+        position: relative;
         width: 760px;
         height: 375px;
 
@@ -487,6 +488,7 @@ header {
       }
 
       .main-work-image-2 {
+        position: relative;
         width: 360px;
         height: 375px;
 
@@ -495,6 +497,7 @@ header {
       }
 
       .main-work-image-3 {
+        position: relative;
         width: 360px;
         height: 375px;
 
@@ -503,6 +506,7 @@ header {
       }
 
       .main-work-image-4 {
+        position: relative;
         width: 360px;
         height: 375px;
 
@@ -511,12 +515,36 @@ header {
       }
 
       .main-work-image-5 {
+        position: relative;
         width: 360px;
         height: 375px;
 
         background: url("../img/397x300/03.jpg") no-repeat center center;
         background-size: cover;
       }
+
+      :hover::after {
+        position: absolute;
+        content: '';
+        background-color: rgba(0, 0, 0, .5);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
     }
+  }
+}
+
+.main-brands {
+  padding: 100px 0;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  img {
+    width: 195px;
+    height: auto;
   }
 }
