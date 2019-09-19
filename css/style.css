@@ -4,7 +4,7 @@ body {
   line-height: 20px;
   color: #abacaf; }
 
-h1, h2, p, ul {
+h1, h2, h3, p, ul {
   margin: 0;
   padding: 0; }
 
@@ -106,7 +106,8 @@ header {
     .main-coding .main-coding-item p {
       font-size: 11px; }
     .main-coding .main-coding-item img {
-      width: 100%; }
+      width: 360px;
+      height: auto; }
     .main-coding .main-coding-item .main-coding-item-title-top {
       padding-top: 20px; }
     .main-coding .main-coding-item .main-coding-item-title-bottom {
@@ -118,7 +119,7 @@ header {
   justify-content: space-between;
   background-color: #fafafa; }
   .main-choose .main-choose-us {
-    width: 460px; }
+    max-width: 460px; }
     .main-choose .main-choose-us h2 {
       padding-bottom: 25px;
       color: #515769;
@@ -162,3 +163,54 @@ header {
         color: #515769; }
       .main-choose .main-choose-benefits .main-choose-benefit-item a:hover {
         color: #999caa; }
+
+.main-latest-products {
+  padding: 110px 0; }
+  .main-latest-products .main-latest-products-title {
+    width: 50%; }
+    .main-latest-products .main-latest-products-title h2 {
+      font-size: 21px;
+      font-weight: bold;
+      color: #515769;
+      padding-bottom: 31px; }
+    .main-latest-products .main-latest-products-title p {
+      padding-bottom: 60px;
+      font-size: 11px; }
+  .main-latest-products .main-latest-products-items {
+    display: flex;
+    justify-content: space-between; }
+    .main-latest-products .main-latest-products-items .main-latest-products-item {
+      max-width: 360px; }
+      .main-latest-products .main-latest-products-items .main-latest-products-item img {
+        padding-bottom: 26px;
+        width: 360px;
+        height: auto; }
+      .main-latest-products .main-latest-products-items .main-latest-products-item h3 {
+        padding-bottom: 24px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #515769; }
+        .main-latest-products .main-latest-products-items .main-latest-products-item h3 span {
+          padding-left: 27px;
+          font-size: 9px;
+          font-weight: normal;
+          color: #abacaf;
+          text-transform: uppercase; }
+      .main-latest-products .main-latest-products-items .main-latest-products-item p {
+        padding-bottom: 20px;
+        font-size: 11px; }
+      .main-latest-products .main-latest-products-items .main-latest-products-item a {
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 9px;
+        font-weight: bold;
+        color: #81848f; }
+      .main-latest-products .main-latest-products-items .main-latest-products-item a::after {
+        position: absolute;
+        content: ' ';
+        top: 5px;
+        right: -14px;
+        width: 9px;
+        height: 2px;
+        background-color: #17bed2; }
