@@ -1,7 +1,8 @@
 body {
   font-family: 'Hind', sans-serif;
   font-size: 16px;
-  line-height: 20px; }
+  line-height: 20px;
+  color: #abacaf; }
 
 h1, h2, p, ul {
   margin: 0;
@@ -82,4 +83,27 @@ header {
         text-transform: uppercase;
         font-size: 10px;
         color: #ffffff;
+        font-weight: bold;
         border: 3px solid #ffffff; }
+      .header-wrapper .header-content-wrapper .header-content a:hover {
+        background-color: #ffffff;
+        color: #81848f; }
+
+.main-coding {
+  padding: 108px 0 215px 0;
+  display: flex;
+  justify-content: space-between; }
+  .main-coding .main-coding-items {
+    width: 360px; }
+    .main-coding .main-coding-items h2 {
+      padding-bottom: 30px;
+      font-size: 21px;
+      color: #515769; }
+    .main-coding .main-coding-items p {
+      font-size: 11px; }
+    .main-coding .main-coding-items img {
+      width: 100%; }
+    .main-coding .main-coding-items .main-coding-item-title-top {
+      padding-top: 65px; }
+    .main-coding .main-coding-items .main-coding-item-title-bottom {
+      padding-bottom: 65px; }

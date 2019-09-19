@@ -4,6 +4,7 @@ body {
   font-family: 'Hind', sans-serif;
   font-size: 16px;
   line-height: 20px;
+  color: #abacaf;
 }
 
 h1, h2, p, ul {
@@ -105,7 +106,6 @@ header {
     justify-content: center;
 
 
-
     .header-content {
       color: $color-white;
 
@@ -132,12 +132,52 @@ header {
 
         font-size: 10px;
         color: $color-white;
+        font-weight: bold;
 
         border: 3px solid $color-white;
       }
-    }
 
+      a:hover {
+        background-color: $color-white;
+
+        color: #81848f;
+      }
+    }
   }
 }
 
+.main-coding {
+  padding: 108px 0 215px 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  .main-coding-items {
+    width: 360px;
+
+    h2 {
+      padding-bottom: 30px;
+
+      font-size: 21px;
+      color: #515769;
+    }
+
+    p {
+      font-size: 11px;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .main-coding-item-title-top {
+      padding-top: 65px;
+
+    }
+
+    .main-coding-item-title-bottom {
+      padding-bottom: 65px;
+    }
+  }
+}
 
