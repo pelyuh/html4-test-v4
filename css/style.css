@@ -181,6 +181,8 @@ header {
     justify-content: space-between; }
     .main-latest-products .main-latest-products-items .main-latest-products-item {
       max-width: 360px; }
+      .main-latest-products .main-latest-products-items .main-latest-products-item :hover {
+        background-color: rgba(255, 255, 255, 0.7); }
       .main-latest-products .main-latest-products-items .main-latest-products-item img {
         padding-bottom: 26px;
         width: 360px;
@@ -214,3 +216,62 @@ header {
         width: 9px;
         height: 2px;
         background-color: #17bed2; }
+
+.main-plans {
+  padding: 100px 0 110px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa; }
+  .main-plans .main-plans-item {
+    width: 380px;
+    margin-right: 2px;
+    padding: 70px 45px;
+    background-color: #ffffff; }
+    .main-plans .main-plans-item h2 {
+      padding-bottom: 28px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #515769; }
+      .main-plans .main-plans-item h2 span {
+        font-size: 12px;
+        font-weight: normal;
+        color: #abacaf; }
+    .main-plans .main-plans-item p {
+      padding-bottom: 36px;
+      font-size: 11px; }
+    .main-plans .main-plans-item ul {
+      padding-bottom: 56px;
+      list-style: none; }
+      .main-plans .main-plans-item ul span:before {
+        position: absolute;
+        content: '';
+        top: 8px;
+        left: 0;
+        width: 9px;
+        height: 2px;
+        background-color: #17bed2; }
+      .main-plans .main-plans-item ul li {
+        padding-left: 14px;
+        position: relative;
+        font-size: 9px;
+        color: #81848f; }
+    .main-plans .main-plans-item a {
+      padding: 18px 40px;
+      background-color: #f3f4f5;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 9px;
+      font-weight: bold;
+      color: #515769; }
+    .main-plans .main-plans-item a:hover {
+      background-color: #17bed2;
+      color: #ffffff; }
+    .main-plans .main-plans-item .main-plans-item-icon i {
+      padding-bottom: 35px;
+      font-size: 30px;
+      color: #999caa; }
+  .main-plans .main-plans-item:nth-of-type(3n) {
+    margin-right: 0; }
+  .main-plans .main-plans-item:nth-of-type(2n) {
+    padding: 110px 45px; }

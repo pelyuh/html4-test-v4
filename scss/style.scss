@@ -270,6 +270,7 @@ header {
 
 .main-latest-products {
   padding: 110px 0;
+
   .main-latest-products-title {
     width: 50%;
 
@@ -295,6 +296,9 @@ header {
     .main-latest-products-item {
       max-width: 360px;
 
+      :hover {
+        background-color: rgba(255, 255, 255, .7);
+      }
 
       img {
         padding-bottom: 26px;
@@ -346,4 +350,98 @@ header {
       }
     }
   }
+}
+
+.main-plans {
+  padding: 100px 0 110px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fafafa;
+
+
+  .main-plans-item {
+    width: 380px;
+
+    margin-right: 2px;
+    padding: 70px 45px;
+
+    background-color: $color-white;
+
+    h2 {
+      padding-bottom: 28px;
+
+      font-size: 14px;
+      font-weight: bold;
+      color: #515769;
+
+      span {
+        font-size: 12px;
+        font-weight: normal;
+        color: #abacaf;
+      }
+    }
+
+    p {
+      padding-bottom: 36px;
+      font-size: 11px;
+    }
+
+    ul {
+      padding-bottom: 56px;
+      list-style: none;
+
+      span:before {
+        position: absolute;
+        content: '';
+        top: 8px;
+        left: 0;
+        width: 9px;
+        height: 2px;
+        background-color: #17bed2;
+      }
+
+      li {
+
+        padding-left: 14px;
+        position: relative;
+
+        font-size: 9px;
+        color: #81848f;
+      }
+    }
+
+    a {
+      padding: 18px 40px;
+      background-color: #f3f4f5;
+
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 9px;
+      font-weight: bold;
+      color: #515769;
+    }
+
+    a:hover {
+      background-color: #17bed2;
+      color: $color-white;
+    }
+
+    .main-plans-item-icon i {
+      padding-bottom: 35px;
+
+      font-size: 30px;
+      color: #999caa;
+    }
+  }
+
+  .main-plans-item:nth-of-type(3n) {
+    margin-right: 0;
+  }
+
+  .main-plans-item:nth-of-type(2n) {
+    padding: 110px 45px;
+  }
+
 }
