@@ -273,7 +273,7 @@ header {
 }
 
 .main-latest-products {
-  padding: 110px 0;
+  padding: 90px 0;
 
   .main-latest-products-title {
     width: 50%;
@@ -299,6 +299,8 @@ header {
     justify-content: space-between;
 
     .main-latest-products-item {
+      padding-bottom: 20px;
+
       max-width: 360px;
       transition: all 1s ease;
 
@@ -636,12 +638,13 @@ header {
 }
 
 .main-agency {
-  padding: 105px 0 115px 0;
+  padding: 105px 0 100px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
   .main-agency-item {
+    padding-bottom: 15px;
     margin-right: 40px;
     max-width: 30%;
 
@@ -693,6 +696,10 @@ header {
     width: 100%;
     height: 300px;
   }
+}
+
+footer {
+  width: 100%;
 }
 
 .footer-wrapper {
