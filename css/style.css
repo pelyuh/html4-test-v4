@@ -228,10 +228,11 @@ header {
   .main-plans .main-plans-wrapper {
     padding: 100px 0 110px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center; }
     .main-plans .main-plans-wrapper .main-plans-item {
-      width: 380px;
+      width: 295px;
       margin-right: 2px;
       padding: 70px 45px;
       background-color: #ffffff; }
