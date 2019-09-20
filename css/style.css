@@ -423,3 +423,13 @@ header {
       color: #81848f; }
     .main-agency .main-agency-item:nth-of-type(3n) {
       margin-right: 0; }
+
+.main-map {
+  margin-bottom: 85px; }
+  .main-map iframe {
+    width: 100%;
+    height: 300px; }
+
+@media screen and (max-width: 1024px) {
+  .main-map {
+    display: none; } }
