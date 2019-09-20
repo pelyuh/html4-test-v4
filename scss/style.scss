@@ -5,6 +5,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #abacaf;
+
 }
 
 h1, h2, h3, p, ul {
@@ -106,7 +107,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 
     .header-content {
       color: $color-white;
@@ -297,8 +297,10 @@ header {
 
     .main-latest-products-item {
       max-width: 360px;
+      transition: all 1s ease;
 
-      :hover {
+
+      &:hover {
         background-color: rgba(255, 255, 255, .7);
       }
 
@@ -364,11 +366,12 @@ header {
   .main-plans-wrapper {
     padding: 100px 0 110px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
     .main-plans-item {
-      width: 380px;
+      max-width: 295px;
 
       margin-right: 2px;
       padding: 70px 45px;
@@ -468,7 +471,7 @@ header {
     }
 
     p {
-      padding-bottom: 60px;
+      padding-bottom: 20px;
 
       width: 50%;
       font-size: 11px;
@@ -478,6 +481,7 @@ header {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+
 
       div {
         margin-top: 40px;
@@ -543,6 +547,8 @@ header {
 .main-brands {
   padding: 100px 0;
 
+  position: relative;
+
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -550,6 +556,10 @@ header {
   img {
     width: 195px;
     height: auto;
+  }
+
+  img:hover {
+    opacity: 0.6;
   }
 }
 
@@ -569,9 +579,9 @@ header {
 
   p {
     padding-bottom: 60px;
+
     width: 50%;
     font-size: 11px;
-
   }
 
   .main-services-items {
@@ -579,14 +589,8 @@ header {
     flex-wrap: wrap;
     justify-content: center;
 
-    .main-services-item:hover {
-      .main-services-item-icon i {
-        display: none;
-      }
-    }
-
     .main-services-item {
-      padding: 50px;
+      padding: 50px 50px 60px 50px;
       margin: 0 2px 2px 0;
 
       max-width: 24%;
@@ -601,11 +605,10 @@ header {
       }
 
       p {
-        padding-bottom: 60px;
+        padding-bottom: 0;
 
         font-size: 11px;
         width: 100%;
-        padding: 0;
       }
 
       .main-services-item-icon i {
@@ -613,12 +616,68 @@ header {
         font-size: 30px;
         color: #9a9dab;
       }
+
+      &:nth-of-type(3n) {
+        margin-right: 0;
+      }
+
+      &:hover {
+        border-top: 23px solid #17bed2;
+
+        .main-services-item-icon i {
+          display: none;
+        }
+      }
     }
   }
 }
 
 .main-agency {
+  padding: 105px 0 115px 0;
   display: flex;
   justify-content: center;
 
+  .main-agency-item {
+    margin-right: 40px;
+    max-width: 33%;
+
+    h2 {
+      padding-bottom: 28px;
+
+      font-size: 14px;
+      font-weight: bold;
+      color: #515769;
+
+      span {
+        padding-left: 26px;
+
+        font-size: 9px;
+        text-transform: uppercase;
+        color: #abacaf;
+      }
+    }
+
+    p {
+      padding-bottom: 18px;
+
+      font-size: 11px;
+    }
+
+    i {
+      font-size: 9px;
+      color: #17bed2;
+    }
+
+    a {
+      padding-left: 14px;
+
+      font-size: 9px;
+      text-decoration: none;
+      color: #81848f;
+    }
+
+    &:nth-of-type(3n) {
+      margin-right: 0;
+    }
+  }
 }
