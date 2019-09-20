@@ -67,12 +67,8 @@ header {
           margin: 0;
           padding: 0;
 
-          :last-child {
-            padding-right: 0;
-          }
-
           li {
-            padding-right: 40px;
+            padding-left: 40px;
           }
 
           li a {
@@ -83,6 +79,10 @@ header {
             text-decoration: none;
 
             text-transform: uppercase;
+          }
+
+          li:nth-of-type(1) {
+            padding-left: 0;
           }
         }
       }
@@ -149,13 +149,15 @@ header {
 }
 
 .main-coding {
-  padding: 108px 0 115px 0;
+  padding: 108px 0 100px 0;
 
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 
   .main-coding-item {
+    padding-bottom: 15px;
+
     width: 360px;
 
     h2 {
@@ -293,6 +295,7 @@ header {
 
   .main-latest-products-items {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
     .main-latest-products-item {
@@ -366,12 +369,11 @@ header {
   .main-plans-wrapper {
     padding: 100px 0 110px 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
     .main-plans-item {
-      max-width: 295px;
+      width: 380px;
 
       margin-right: 2px;
       padding: 70px 45px;
@@ -481,6 +483,7 @@ header {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+
 
 
       div {
@@ -622,8 +625,7 @@ header {
       }
 
       &:hover {
-        border-top: 23px solid #17bed2;
-
+        border-top: 23px solid #17BED2;
         .main-services-item-icon i {
           display: none;
         }
@@ -635,11 +637,12 @@ header {
 .main-agency {
   padding: 105px 0 115px 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 
   .main-agency-item {
     margin-right: 40px;
-    max-width: 33%;
+    max-width: 30%;
 
     h2 {
       padding-bottom: 28px;
@@ -665,7 +668,7 @@ header {
 
     i {
       font-size: 9px;
-      color: #17bed2;
+      color: #17BED2;
     }
 
     a {
@@ -673,7 +676,7 @@ header {
 
       font-size: 9px;
       text-decoration: none;
-      color: #81848f;
+      color: #81848F;
     }
 
     &:nth-of-type(3n) {
@@ -691,7 +694,30 @@ header {
   }
 }
 
+.footer-wrapper {
+  padding-bottom: 80px;
 
+  display: flex;
+
+  li {
+    padding: 0 130px 20px 0;
+    list-style: none;
+  }
+
+  .footer-nav-items:last-child {
+    padding-bottom: 0;
+  }
+
+  a {
+    font-size: 11px;
+    color: #51576D;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #999CAA;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .main-map {
